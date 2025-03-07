@@ -209,7 +209,8 @@ kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.26.0/
 
 Deploys Calico for pod networking.
 
-## Step 16: Join worker nodes
+## Step 16: Join worker nodes (Run this command in worker / Slave)
+## Run Eevery commands above in Slave / Worker and join command in worker node only.
 
 ```bash
 kubeadm join 172.......39:6443 --token 3q2p................hb6 \
